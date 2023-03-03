@@ -1,0 +1,29 @@
+.input {
+  width: 100%;
+}
+
+.icon-input {
+  border: none;
+  border-radius: 0.4rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 4rem;
+  padding: 0 1.2rem;
+}
+
+.icon-input:focus {
+  border: none;
+  outline: none;
+}
+
+.icon-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-input-container .icon {
+  margin: 0 0.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
+}

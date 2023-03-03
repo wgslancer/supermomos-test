@@ -1,0 +1,67 @@
+.create-social-form {
+  padding-top: 8.8rem;
+  padding-bottom: 10rem;
+  display: flex;
+}
+
+.create-social-form__container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 48.9rem;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.create-social-form__container .date-group {
+  display: flex;
+  gap: 0 1.6rem;
+  margin: 2.8rem 0;
+}
+.create-social-form .date-input {
+  max-width: 23.7rem;
+}
+
+.create-social-form .time-input {
+  max-width: 23.7rem;
+}
+
+.create-social-form .location-input {
+  width: 100%;
+}
+
+.create-social-form__container .capacity-group {
+  display: flex;
+  max-width: 40.6rem;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+.create-social-form__container .capacity-group .cost-input {
+  margin-left: 3.2rem;
+}
+.add-banner__container {
+  width: 100%;
+  height: 44.5rem;
+  margin-left: 1.8rem;
+}
+.add-banner-btn {
+  background: var(--gray-6);
+  border: 1px dashed #f2f2f2;
+  border-radius: 0px 64px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark-blue);
+}
+
+.add-banner-btn span {
+  margin-left: 1.6rem;
+}
