@@ -1,0 +1,25 @@
+.tag {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--tag-color);
+  background-color: var(--tag-background-color);
+  padding: 0.2rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 4;
+  border: none;
+  outline: transparent;
+  cursor: pointer;
+  border-radius: 1.6rem;
+}
+
+.tag-selected {
+  padding: 0.4rem 1rem 0.4rem 1.2rem;
+  background-color: var(--tag-selected-background-color);
+  color: var(--purple);
+}
+
+.tag-selected .tag-close-icon {
+  margin-left: 0.4rem;
+}

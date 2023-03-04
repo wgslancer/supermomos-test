@@ -1,0 +1,26 @@
+.variant-btn {
+  border: none;
+  background-color: transparent;
+  outline: transparent;
+  cursor: pointer;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  color: var(--btn-text-btn-color);
+}
+
+.variant-btn-text:hover {
+  transition: background-color 0.2s ease;
+  background-color: var(--btn-background-color);
+}
+
+.variant-btn-contained {
+  background-color: var(--btn-background-color);
+}
+
+.variant-btn-contained:hover {
+  transition: background-color 0.2s ease;
+  background-color: var(--btn-hover-background-color);
+}

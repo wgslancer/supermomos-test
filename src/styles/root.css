@@ -1,7 +1,26 @@
 :root {
   --gray-1: rgba(51, 51, 51, 1);
+  --gray-2: rgb(84 93 114);
   --gray-6: rgba(242, 242, 242, 0.1);
   --purple: rgba(148, 47, 112, 1);
   --white: rgba(255, 255, 255, 1);
   --dark-blue: rgba(20, 89, 122, 1);
+  --border-color: rgb(214 219 223);
+  --yellow: rgba(254, 244, 82, 1);
+
+  --btn-background-color: rgba(188, 143, 143, 0.6);
+  --btn-hover-background-color: rgba(188, 143, 143, 0.8);
+  --btn-text-btn-color: rgba(84, 93, 114, 1);
+
+  --text-area-placeholder: rgba(102, 112, 133, 1);
+
+  --input-checkbox-border-color: rgba(202, 206, 206, 1);
+  --input-checkbox-checked-background-color: rgb(233, 236, 238);
+  --input-checkbox-checked-border-color: rgb(173, 184, 192);
+  --input-checkbox-checked-color: rgb(153, 161, 167);
+  --input-checkbox-border-box-shadow: rgba(0, 0, 0, 0.05);
+
+  --tag-color: rgba(52, 64, 84, 1);
+  --tag-background-color: rgba(242, 244, 247, 1);
+  --tag-selected-background-color: rgba(249, 245, 255, 1);
 }

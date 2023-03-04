@@ -1,6 +1,9 @@
 .create-social-form {
   padding-top: 8.8rem;
   padding-bottom: 10rem;
+}
+
+.create-social-form-container {
   display: flex;
 }
 
@@ -64,4 +67,161 @@
 
 .add-banner-btn span {
   margin-left: 1.6rem;
+}
+
+.choose-banner-modal {
+  min-width: 80%;
+  min-height: auto;
+  background-color: var(--white);
+  border-radius: 0.4rem;
+}
+
+.choose-banner-group {
+  min-height: 80vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.choose-banner-container {
+  padding: 2.4rem 1.2rem;
+}
+
+.choose-banner-title p {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-style: normal;
+  color: var(--gray-2);
+}
+
+.choose-banner-title {
+  border-bottom: 0.1rem solid var(--border-color);
+}
+
+.choose-banner-btn-group {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 0.1rem solid var(--border-color);
+}
+
+.choose-banner-save-btn {
+  background-color: rgb(255, 246, 66);
+  color: rgb(129, 28, 93);
+  margin-left: 1.2rem;
+}
+
+.choose-banner-save-btn:hover {
+  background-color: rgb(251, 253, 0);
+}
+
+.choose-banner-images {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.2rem;
+}
+
+.choose-banner-img {
+  cursor: pointer;
+}
+
+.create-social-description-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 64.2rem;
+}
+
+.create-social-description-label {
+  margin-bottom: 0.6rem;
+}
+
+.create-social-description-textarea {
+  height: 20.7rem;
+}
+
+.create-social__checkbox-container {
+  display: flex;
+  align-items: center;
+}
+.create-social__checkbox-container .create-social__checkbox-label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgba(52, 64, 84, 1);
+  margin-left: 1.2rem;
+}
+
+.create-social-setting-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.2rem;
+  gap: 2rem;
+  margin-top: 3.2rem;
+  background-color: var(--white);
+  border-radius: 2rem;
+}
+
+.radio-privacy-container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-privacy-container .label {
+  margin-left: 1.2rem;
+}
+
+.create-social-privacy-group {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.create-social-setting-group__title {
+  background-color: var(--yellow);
+  color: var(--purple);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 6rem;
+  padding: 0 1.2rem;
+  width: fit-content;
+}
+
+.create-social-tags-select .title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(52, 64, 84, 1);
+}
+
+.create-social-tags-select .subtitle {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(71, 84, 103, 1);
+  margin-bottom: 2.4rem;
+}
+
+.tags-container {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.tags-selected-container {
+  margin-bottom: 1.6rem;
+}
+
+.create-social-submit-btn {
+  background-color: var(--yellow);
+  color: var(--purple);
+  width: 100%;
+  padding: 1.2rem 0;
+  margin-top: 3.2rem;
+}
+
+.create-social-submit-btn:hover {
+  background-color: rgb(251, 253, 0);
 }
