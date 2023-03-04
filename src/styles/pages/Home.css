@@ -225,3 +225,109 @@
 .create-social-submit-btn:hover {
   background-color: rgb(251, 253, 0);
 }
+
+.banner-img {
+  cursor: pointer;
+  border-radius: 0 6.4rem;
+  position: relative;
+}
+
+.banner-img:hover {
+  filter: blur(0.3rem);
+}
+
+.social-form-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 64.2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.social-form-title {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  background-color: var(--purple);
+  margin-bottom: 2.4rem;
+  width: fit-content;
+  word-break: break-word;
+}
+
+.social-form-date {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.4rem;
+  gap: 3.2rem;
+}
+
+.title-information {
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 4rem;
+}
+
+.social-form-addition-information {
+  margin-bottom: 3.2rem;
+}
+
+.subtitle-information {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 4rem;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  word-break: break-word;
+  display: inline;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container .subtitle-information {
+  margin-left: 0.8rem;
+}
+
+.icon-container .title-information {
+  margin-left: 0.8rem;
+}
+
+.social-form-addition-information {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.social-form-container {
+  position: relative;
+}
+.social-form-banner-img {
+  position: absolute;
+  right: 8.2rem;
+  top: 0;
+  border-radius: 0 6.4rem;
+}
+
+.has-chosen-banner-img {
+  border: 0.3rem solid var(--yellow);
+}
+
+.add-banner-btn--error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin-top: 3.2rem;
+}

@@ -93,3 +93,17 @@ input[type="radio"]:checked::before {
   left: 0.3rem;
   color: var(--input-checkbox-checked-color);
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input[type="number"]:hover {
+  appearance: none;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

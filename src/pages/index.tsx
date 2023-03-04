@@ -1,8 +1,29 @@
 import Head from "next/head";
 import Header from "@/components/base/Header";
 import CreateSocialForm from "@/components/pages/Home/CreateSocialForm";
+import { useState } from "react";
+import SocialForm from "@/components/pages/Home/SocialForm";
+
+export interface SocialFormDataType {
+  title: string;
+  startAt: string;
+  venue: string;
+  capacity: number;
+  price: number;
+  description: string;
+  isManualApprove: boolean;
+  privacy: string;
+  banner: string;
+  tags: Array<string>;
+}
 
 export default function Home() {
+  const [socialFormData, setSocialFormDate] =
+    useState<SocialFormDataType | null>();
+
+  const handleOnSubmitCreate = (data: SocialFormDataType) => {
+    setSocialFormDate(data);
+  };
   return (
     <>
       <Head>
@@ -13,7 +34,11 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <CreateSocialForm />
+        {socialFormData ? (
+          <SocialForm {...socialFormData} />
+        ) : (
+          <CreateSocialForm handleOnSubmitCreate={handleOnSubmitCreate} />
+        )}
       </main>
     </>
   );
